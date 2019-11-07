@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagination</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <!-- <table class="bookTable">
+            <tr>
+                <th><b>Book ID</b></th>
+                <th><b>Title</b></th>
+                <th><b>Author</b></th>
+            </tr>
+        </table> -->
+        
+        <table id="bookTable" class="bookTable">
+            <thead>
+                <tr>
+                    <th>Book Id</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="outerPagination">
+            <div id="paginationButtons" class="pagination">
+                <button class="left" onclick="prevPage()"><b>&laquo;</b></button>
+                <button onclick="setPage(1)"><b>1</b></button>
+                <button onclick="setPage(2)"><b>2</b></button>
+                <button onclick="setPage(3)"><b>3</b></button>
+                <button onclick="setPage(4)"><b>4</b></button>
+                <button class="right" onclick="nextPage()"><b>&raquo;</b></button>
+            </div>
+        </div>
+    </body>
+
+    <script src="pagination.js"></script>
+</html>

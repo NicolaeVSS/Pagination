@@ -1,0 +1,61 @@
+body{
+    background: #e7eaf6;
+}
+
+.bookTable{
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse: collapse;
+}
+
+.bookTable th,
+.bookTable td{
+    text-align: center;
+    width: 33%;
+    height: 22px;
+
+    background: white;
+    color: #113f67;
+    border: 1px solid #113f67;
+}
+
+.outerPagination{
+    padding:10px;
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination button{
+    border: 1px solid #113f67;
+    border-right-width: 0px;
+    background-color: white;
+    color: #113f67;
+    outline:0;
+    
+    float: left;
+    padding: 10px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pagination button.left{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-right-width: 0px;
+}
+
+.pagination button.right{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-width: 1px;
+}
+
+.pagination button:hover,
+.pagination button:focus{
+    background-color: #113f67;
+    color: white;
+}
